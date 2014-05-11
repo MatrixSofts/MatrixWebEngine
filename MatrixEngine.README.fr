@@ -1,0 +1,168 @@
+/*=============================================================================
+#
+#                           ``--:-` 
+#                          `-/+ooo+:.
+#                         .:+sssssss+-         MatrixWebEngine  V:1.0 
+#                        .:+sooossssso:
+#                       `-++:--:/osssso.
+#                      `.:/:-oysysossss+`        `````````
+#                      `-::.yy` `ohosss+- ``..---:::::::::-.
+#                      .-..od`    hhssso/----------::::///::`
+#  ``...------......```.-..ms-:+shhs+ooo/--:://++/---::////:`
+#.-::::::::-----------....-+shdhyyyssddy+:yhs/---os--:////:.
+#.::::::/:::---/++oooo-|yhhhhhyyyyyyshm|y+|hhh. `yo-:///::.
+# `-:::/++//:::hh+:-/N:|h|yhdhyyyyyyy|N|y+|hhsooso:////:-`
+#   `.-://+++///oyyoyo.|y|sh|shhhh|hs|N|h/|ys-----///:-.
+#      `.-://++++///---|y|oy|sh|hh|o+|m|y/|so...-:-:-.-..`
+#          `.-:/:////-.|s|+s|os|hh|++|s|+-|//:/:::-::------..`
+#            ``..-:-.--+y|od|ys|o+|oo|m|:-`:/:::/oo/os+--------.`
+#          ``.----`:yd:-+|/+|ss|y+|.:|:|oh:---:shyoooys--:::-::---`
+#         `.--:--.oh.do./++s|+/|.`|..:ydmh+-+////////////////:::---.
+#        `-::::---N/`yy..../so/+/++/.:///+/::::///////+++++//:::---.
+#      ..://:::---+ssys.-:-.//+o++//--/os+:``````....---------..``  
+#     .-:///:::///:////:+o/-:////+shossss/: 
+#    .-::////////////////o+:.:shyyNyosssso-     
+#    .-::///////////////-::-..+ysyoosssss+.
+#    `.-::////////::-..``.:/:..--:ossssss/      Rel Date: 05/2014
+#       ``.....```       .-:/+o+ossssssso-
+#                        `.-:+ssssssssso:
+#                         `.-/sssssssso/`
+#                          `.-:+sssss+/`
+#                            `-://///-`
+#                             ``.--.` 
+#
+#==============================================================================
+#
+#   File: MatrixEngine.README.fr
+#
+#   Author: Jerome 'PsYkhAzE aka The_Architekt' KASPER
+#
+#   Licence: GPL V3
+#
+#	Description: Fichier d'informations Global
+#
+#============================================================================*/
+
+#==============================================================================
+#			                      0.Sommaire
+#==============================================================================
+
+# 1.Description
+# 2.Technologies
+# 3.Fonctionnalités
+# 4.Documentation
+# 5.Modèle de Données
+# 6.Licence
+# 7.Contact
+
+
+#==============================================================================
+#			                 1.Description
+#==============================================================================
+
+Matrix WebEngine est un Framework de Création d'Application Web Multimédia 
+utilisant de Manière Sécurisée les technologies Web 2.0 afin de simplifier le 
+Processus de Modélisation Applicatif.
+
+Matrix WebEngine est organisé autour du modèle MVC (Modèle Vue Contrôleur)
+opérant par la segmentation des données stockées dans une base de données, 
+des ressources graphiques et du traitement des données génériques 
+( Authentification etc... ),des traitements spécifique à l'Application 
+( présentés sous formes de modules séparés indépendamment et logiquement.
+
+La Partie Modèle regroupe le code interagissant avec le Modèle de Données afin
+derendre abstrait au possible l'accès à l'information et à la Base de Données.
+
+La Partie Vue gère L'Aspect de l'Application.A travers des Fichiers de 
+Configuration et un Editeur WYSIWYG il est possible de modifier entièrement 
+la Mise en Page de l'application et des Ressources Graphiques associées.
+
+La Partie Contrôleur se charge des Traitements Dynamiques des Données.On pourra
+la diviser en 2 Parties: la partie "Générique" (Authentification etc...) de la
+partie Spécifique à l'Application et à son déroulement.
+
+#==============================================================================
+#			                 2.Technologies
+#==============================================================================
+
+Matrix WebEngine utilise les Technologies suivantes:
+- MySQL pour le Stockage de Données
+- HTML5/CSS3 pour le Balisage organisationne let la Mise en Page
+- JQuery pour l'Interface Utilisateur et les manipulations dynamiques sur le 
+modèle DOM
+- PHP pour le traitement des données
+
+Matrix WebEngine est prévu pour tourner sur un Système d'Exploitation FreeBSD 
+équipé de lighttpd, de MySQL et de PHP ainsi que ses extensions.
+
+#==============================================================================
+#			           3.Fonctionnalités
+#==============================================================================
+
+Matrix WebEngine manipules les Concepts Logiques suivants:
+
+-Routing
+-Theming
+-Templating
+-Multilingue
+-Utilisateur
+-Mots de Passe hachés salés 
+-Authentification
+-Cryptage SHA512 et Obfuscation
+-Caractéristiques Evolutives
+-Environnements hiérarchisés
+-Actions
+-Erreurs
+-Evènements
+-Etats
+-Logging
+-Helpers
+-Forum
+-Shoutbox
+
+-Modularisation du Style et des Traitements
+-Séparation Application/Framework
+-Backend Adminstratif Graphique
+
+Modifications prévues pour la V 2.0:
+-Support WebGL
+
+Modification prévues pour la V 3.0:
+-Intégration d'Outils Internes d'édition 2D,3D et Son
+
+#==============================================================================
+#			                    4.Documentation
+#==============================================================================
+
+Une Documentation Technique exhaustive est présente dans le dossier doc/
+
+#==============================================================================
+#			                    5.Modèle de Données
+#==============================================================================
+
+Un fichier structure de la base de données est diponible dans le dossier 
+sql/ . Vous pouvez également vous reporter à la Documentation Technique
+
+
+#==============================================================================
+#			                        6.Licence
+#==============================================================================
+
+Licencié sous Licence GPL V3 Disponible dans le fichier MatrixEngine.Licence
+
+Les Licences des modules JavaScript/JQuery utilisées sont disponibles sur les 
+sites respectifs des éditeurs ,mais l'utilisation des licences MIT/GPL
+pour les free softwares tierces est privilégiée.
+
+
+#==============================================================================
+#			                        8.Contact
+#==============================================================================
+
+Vous pouvez contacter l'auteur Jerome 'PsYkhAzE aka The_Architekt' aux 
+coordonnées suivantes, sous réserve d'avoir parcouru la documentation en cas 
+de question technique :)
+
+email : architect.matrix0s@gmail.com
+skype : psykhaze
+b.net : psykhaze#2267
